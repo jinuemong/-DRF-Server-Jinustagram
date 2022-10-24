@@ -1,0 +1,1 @@
+core 폴더는 재사용 가능성이 있는 class, function을 모아둔 폴더

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyj
+Version: 0.0
+Summary: clojure-like functionality for python
+Home-page: https://github.com/zcaudate/pyj
+Author: Chris Zheng
+Author-email: z@caudate.me
+License: UNKNOWN
+Keywords: clojure python functional
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
