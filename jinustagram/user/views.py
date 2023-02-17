@@ -100,7 +100,7 @@ class UpdateProfileView(APIView):
             return Profile.objects.get(id=id)
         except Profile.DoesNotExist:
             return Response(id,status=status.HTTP_400_BAD_REQUEST)
-         
+        
     def post(self,request):
         data = request.data
         profile = self.get_object(data['id'])

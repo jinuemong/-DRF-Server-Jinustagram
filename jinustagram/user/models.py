@@ -6,7 +6,6 @@ from django.conf import settings
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin
 from django.db.models.fields import BooleanField
-from traitlets import default
 from .managers import UserManager
 #migrate 안될때 :python manage.py migrate posting --run-syncdb
 
