@@ -41,7 +41,6 @@ class LoginAPIView(APIView):
     renderer_classes = (UserJsonRenderer,)
     serializer_class = LoginSerializer
     
-    
     def post(self, request):
         #입력 값 서버로 전송
         user = request.data
@@ -49,6 +48,7 @@ class LoginAPIView(APIView):
         serializer = self.serializer_class(data=user)
         serializer.is_valid(raise_exception=True)
         return Response(serializer.data,status=status.HTTP_200_OK)
+
 
 class UserRetrieveUpdateAPIView(RetrieveUpdateAPIView,RetrieveDestroyAPIView):
     permission_classes = (IsAuthenticated,)
