@@ -1,6 +1,9 @@
 # Django-Rest-Framework Project
 ------------------
 
+### Project Information
+https://www.notion.so/Jinwoo-Kim-ba88c2c3e87a4a16b5ed402bf501dea4?p=4ae7a793b8854c3080c3f9a6ed087b73&pm=c
+
 ### Project Name
    - Jinustagram Server
    
